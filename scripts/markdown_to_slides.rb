@@ -16,9 +16,10 @@ js += custom_js_file
 `pandoc -w dzslides --standalone --self-contained presentation.md > presentation.html`
 
 presentation = File.read('presentation.html')
+livereload_js = %Q|<script src="http://localhost:35729/livereload.js"></script>|
 style = "<style>#{css}</style>"
 scripts = "<script>#{js}</script>"
-presentation.sub!('</body>', "#{style}#{scripts}</body>")
+presentation.sub!('</body>', "#{style}#{scripts}#{livereload_js}</body>")
 
 File.open('presentation.html', 'w') do |fh|
   fh.puts presentation
