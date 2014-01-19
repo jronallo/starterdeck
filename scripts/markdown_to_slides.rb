@@ -11,7 +11,7 @@ custom_js_file = File.expand_path('../../assets/custom.js', __FILE__)
 
 css = File.read(css_file)
 js  = File.read(js_file)
-js += custom_js_file
+js += "\n" + File.read(custom_js_file)
 
 `pandoc -w dzslides --standalone --self-contained presentation.md > presentation.html`
 
