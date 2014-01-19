@@ -36,4 +36,8 @@ Edit assets/custom.js to add custom JavaScript.
 
 This project uses Sass and provides some mixins for some common slide styles. You can see them in assets/_starterdeck.css.scss
 
+## Speaker notes
+
+Included in assets/starterdeck.js is some JavaScript to toggle notes off and on using the "n" key.
+
 
