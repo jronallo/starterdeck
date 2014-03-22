@@ -40,4 +40,8 @@ This project uses Sass and provides some mixins for some common slide styles. Yo
 
 Included in assets/starterdeck.js is some JavaScript to toggle notes off and on using the "n" key.
 
+## Exporting a PDF
+
+`scripts/dzslides2pdf.rb http://localhost/ presentation.html`
+
 

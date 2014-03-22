@@ -23,7 +23,7 @@ Capybara.configure do |config|
   config.app_host = base_url
 end
 
-visit '/presentation.html' # visit the first page
+visit File.join("/", presentation_name) # visit the first page
 
 # change the size of the window
 if Capybara.current_driver == :webkit
