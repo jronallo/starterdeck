@@ -1,3 +1,3 @@
-$(document).ready(function() {
-	$('video').attr('controls', 'controls');
+jQuery(document).ready(function() {
+	jQuery('video').attr('controls', 'controls');
 });
