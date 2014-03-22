@@ -1,4 +1,4 @@
-# Title of presentation {#first}
+# Title of Presentation {#first}
 
 Jason Ronallo  
 NCSU Libraries  
@@ -16,13 +16,11 @@ Slides: <https://ronallo.com/presentations/>
 
 # Jason Ronallo
 
-[@ronallo](https://twitter.com/ronallo)
+[\@ronallo](https://twitter.com/ronallo)
 
 <jronallo@gmail.com>
 
 <http://ronallo.com>
-
-
 
 <div role="note" class="note">
   Closing slide notes.
