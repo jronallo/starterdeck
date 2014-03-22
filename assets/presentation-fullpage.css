@@ -15,3 +15,7 @@ div[role=note] {
 div[role=note]:before {
 	content: 'Note: '
 }
+
+img {
+	width: 100%;
+}
