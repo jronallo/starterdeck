@@ -26,6 +26,14 @@ Edit presentation.md.
 
 Publish your slideshow as a single page including all images.
 
+## Using the Latest DZSlides Template
+
+```
+wget --directory-prefix ~/.pandoc/dzslides https://raw.githubusercontent.com/paulrouget/dzslides/master/template.html
+```
+
+See the addition to the first comment here: <https://github.com/paulrouget/dzslides/issues/52>
+
 ## Customization
 
 Edit assets/_custom.css.scss using the SCSS syntax.
