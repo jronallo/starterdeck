@@ -2,6 +2,8 @@
 
 Starterdeck is a repository for cloning to quickly getting started creating a presentation slideshow.
 
+**This repository is no longer maintained. Take a look at [starterdeck-node](https://github.com/jronallo/starterdeck-node) which offers new features like synchronized audience notes.**
+
 ## About
 
 You can read more about this approach to creating slideshows here:
